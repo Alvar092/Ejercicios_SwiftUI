@@ -1,0 +1,87 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "¿No tienes cuenta?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You dont have account?"
+          }
+        }
+      }
+    },
+    "%@" : {
+
+    },
+    "Cargando..." : {
+
+    },
+    "Cerrar session" : {
+
+    },
+    "Clave" : {
+      "comment" : "\"Entrar\" = \"Login\";",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Password"
+          }
+        }
+      }
+    },
+    "Email" : {
+
+    },
+    "Entrar" : {
+
+    },
+    "Home" : {
+
+    },
+    "LOGIN_BUTTON" : {
+      "comment" : "Entrar22",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salir"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entrar"
+          }
+        }
+      }
+    },
+    "Registersdfsd" : {
+
+    },
+    "Registro" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Register"
+          }
+        }
+      }
+    },
+    "Test" : {
+      "comment" : "Localizable.strings\n  kcHerosClase\n\n  Created by JOSE LUIS BUSTOS ESTEBAN on 28/5/25.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Test ESP"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
