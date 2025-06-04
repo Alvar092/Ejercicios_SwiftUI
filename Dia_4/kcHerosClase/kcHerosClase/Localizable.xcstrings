@@ -11,6 +11,15 @@
         }
       }
     },
+    "Alumnos" : {
+
+    },
+    "Buscar heroes por nombre " : {
+
+    },
+    "Cargando datos..." : {
+
+    },
     "Clave" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -21,6 +30,9 @@
           }
         }
       }
+    },
+    "destino" : {
+
     },
     "Email" : {
 
@@ -36,7 +48,16 @@
         }
       }
     },
+    "Heroes" : {
+
+    },
+    "Home" : {
+
+    },
     "Password" : {
+
+    },
+    "Register" : {
 
     },
     "Registro" : {
@@ -49,6 +70,9 @@
         }
       }
     },
+    "Sigiuiente" : {
+
+    },
     "Test" : {
       "comment" : "Localizable.strings\n  kcHerosClase\n\n  Created by Álvaro Entrena Casas on 30/5/25.",
       "extractionState" : "manual",
@@ -60,6 +84,9 @@
           }
         }
       }
+    },
+    "Volver" : {
+
     }
   },
   "version" : "1.0"

@@ -39,9 +39,7 @@ final class NetworkLogin: NetworkLoginProtocol {
             }
         } catch{
             tokenJWT = ""
-        }
-        
-        
+        }        
         return tokenJWT
     }
 }

@@ -28,13 +28,16 @@ final class AppState: Observable {
         
         // Autologin
         Task{
-            await self.validateControlLogin()
+            self.validateControlLogin()
         }
     }
     
     // Funciones
     @MainActor
     func loginApp(user: String, pass: String) {
+        
+        self.status = .loading
+        
         Task {
             if (await loginUserCase.loginApp(user: user, password: pass)) {
                 // Login OK

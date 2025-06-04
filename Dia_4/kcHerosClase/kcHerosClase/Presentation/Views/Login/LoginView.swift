@@ -39,6 +39,7 @@ struct LoginView: View {
                     .opacity(0.7)
                     .padding(.top, 170)
                     
+                // Usuario y clave
                 VStack{
                     // Usuario
                     TextField("Email", text: $email)

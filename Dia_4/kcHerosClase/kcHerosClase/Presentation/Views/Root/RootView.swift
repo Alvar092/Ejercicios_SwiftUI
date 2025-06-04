@@ -8,21 +8,24 @@
 import SwiftUI
 
 struct RootView: View {
-    
     @Environment(AppState.self) var appState
     
     var body: some View {
-        switch (appState.status) {
+        switch (appState.status){
         case .none:
             LoginView()
         case .register:
             Text("Register")
         case .loading:
-            Text("Cargando ")
+            withAnimation {
+                LoaderView()
+            }
+        case .error(error: let errorString):
+            withAnimation{
+                ErrorView(error: errorString)
+            }
         case .loaded:
-            Text("Cargado")
-        case .error(error: let error):
-            Text("Error")
+            PrincipalView()
         }
     }
 }
